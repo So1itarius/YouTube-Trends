@@ -51,7 +51,7 @@ class YouTubeLogic {
 
     private static Credential authorize() throws Exception {
 
-        InputStream in = YouTubeLogic.class.getResourceAsStream("client_id.json");
+        InputStream in = YouTubeLogic.class.getResourceAsStream("client_id.json");//Нужно создать свой файл
         GoogleClientSecrets clientSecrets = GoogleClientSecrets.load(JSON_FACTORY, new InputStreamReader( in ));
 
         GoogleAuthorizationCodeFlow flow = new GoogleAuthorizationCodeFlow.Builder(
