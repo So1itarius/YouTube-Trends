@@ -72,12 +72,12 @@ public class BotLogic extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "YouTrends_bot";
+        return "";//Нужно ввести свое Username для бота
     }
 
 
     @Override
     public String getBotToken() {
-        return "609308218:AAG7gM2C7HvNF4qS6vOkjU-LSX9uoJgI4DM";
+        return "";//Нужно ввести свой Token
     }
 }
